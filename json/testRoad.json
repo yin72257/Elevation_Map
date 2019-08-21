@@ -1,0 +1,119 @@
+{"points": [
+        {
+          "x": 784,
+          "y": 215,
+          "property": "intersection",
+          "elevation": "150.7"
+        },
+        {
+          "x": 687,
+          "y": 262,
+          "property": "normal",
+          "elevation": "150.7"
+        },
+        {
+          "x": 603,
+          "y": 302,
+          "property": "intersection",
+          "elevation": "151"
+        },
+        {
+          "x": 569,
+          "y": 298,
+          "property": "intersection",
+          "elevation": "151.6"
+        },
+        {
+          "x": 566,
+          "y": 280,
+          "property": "normal",
+          "elevation": "151.6"
+        },
+        {
+          "x": 509,
+          "y": 291,
+          "property": "normal",
+          "elevation": "153.4"
+        },
+        {
+          "x": 478,
+          "y": 310,
+          "property": "normal",
+          "elevation": "154.3"
+        },
+        {
+          "x": 469,
+          "y": 306,
+          "property": "normal",
+          "elevation": "155.2"
+        },
+        {
+          "x": 456,
+          "y": 319,
+          "property": "normal",
+          "elevation": "155.2"
+        },
+        {
+          "x": 460,
+          "y": 295,
+          "property": "normal",
+          "elevation": "156.8"
+        },
+        {
+          "x": 441,
+          "y": 309,
+          "property": "normal",
+          "elevation": "157.5"
+        },
+        {
+          "x": 448,
+          "y": 286,
+          "property": "normal",
+          "elevation": "159"
+        },
+        {
+          "x": 417,
+          "y": 277,
+          "property": "normal",
+          "elevation": "161"
+        },
+        {
+          "x": 398,
+          "y": 293,
+          "property": "normal",
+          "elevation": "160.1"
+        },
+        {
+          "x": 394,
+          "y": 320,
+          "property": "normal",
+          "elevation": "159"
+        },
+        {
+          "x": 405,
+          "y": 350,
+          "property": "normal",
+          "elevation": "157"
+        },
+        {
+          "x": 392,
+          "y": 375,
+          "property": "intersection",
+          "elevation": "156.5"
+        },
+        {
+          "x": 412,
+          "y": 411,
+          "property": "normal",
+          "elevation": "156.6"
+        },
+        {
+          "x": 390,
+          "y": 458,
+          "property": "intersection",
+          "elevation": "156.5"
+        }
+      ]
+
+
+}

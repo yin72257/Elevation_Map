@@ -1,0 +1,82 @@
+{
+  "Roads": [
+    {
+      "name": "road1",
+      "points": [
+        {
+          "x": 100,
+          "y": 400,
+          "property": "normal",
+        "time": 0.5
+            
+        },
+        {
+          "x": 100,
+          "y": 300,
+          "property": "normal",
+        "time": 0.5
+            
+            
+        },
+        {
+          "x": 100,
+          "y": 200,
+          "property": "intersection",
+        "time": 0.5
+        },
+        {
+          "x": 100,
+          "y": 100,
+          "property": "normal",
+        "time": 0.5
+        }
+      ]
+    },
+    {
+      "name": "road2",
+      "points": [
+        {
+          "x": 100,
+          "y": 200,
+          "property": "intersection",
+        "time": 0.5
+        },
+        {
+          "x": 200,
+          "y": 200,
+          "property": "intersection",
+        "time": 0.5
+        },
+        {
+          "x": 300,
+          "y": 200,
+          "property": "normal",
+        "time": 0.5
+        }
+      ]
+    },
+    {
+      "name": "road3",
+      "points": [
+        {
+          "x": 200,
+          "y": 300,
+          "property": "normal",
+        "time": 0.5
+        },
+        {
+          "x": 200,
+          "y": 200,
+          "property": "intersection",
+        "time": 0.5
+        },
+        {
+          "x": 200,
+          "y": 100,
+          "property": "normal",
+        "time": 0.5
+        }
+      ]
+    }
+  ]
+}
