@@ -91,15 +91,17 @@ function searchFunction() {
         if (i >= bestSearches.length) {
             break;
         }
-        var largest = bestSearches[i];
+        var largest = bestSearches[0];
         for (j = 0; j < bestSearches.length; j++) {
             if (bestSearches[j].matches > largest.matches && !top3.includes(bestSearches[j])) {
                 largest = bestSearches[j];
+                
             }
         }
         top3[i] = largest;
-        
+        largest.matches = 0;
     }
+    
     if (top3[0] != undefined) {
         firstOption.innerHTML = top3[0].name;
         if (top3[1] != undefined) {

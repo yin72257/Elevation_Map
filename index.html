@@ -2,6 +2,7 @@
 <html>
     <head>
         <script type="text/javascript" src="scripts/jquery-3.3.1.js"></script>
+        <script type="text/javascript" src="scripts/Chart.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
     </head>
@@ -21,6 +22,9 @@
         </div>
         <button class="searchButton" id="searchEnd" style="left: 190px; background-color: #FFD100">Set Location as End</button>
         <button class="searchButton" id="searchStart" style="background-color: #2774AE; ">Set Location Start</button>
+        <div class="elevationCheck">
+            <input type="checkbox" id="elevationBox"> Show Elevation
+        </div>
         <div class="dropdown">
         <input name="search" id="search" class="searchbtn" onclick="dropFunction()" type="text" placeholder="Search">
           <div id="myDropdown" class="dropdown-content">
@@ -31,9 +35,15 @@
           </div>
         </div>
         
+        <canvas id="myChart" width="600px" height="300px" style="border:1px solid #8BB8E8; position:fixed; top: 130px; background-color: whitesmoke; visibility: hidden; width:600px; height: 300px; max-width: 600px;"></canvas>
+
         
         <style> 
-
+            .elevationCheck {
+                position:fixed;
+                top:90px;
+                
+            }
             #search {
                 border-radius: 20px;
                 border-left-color: #2774AE;
@@ -141,6 +151,7 @@
         </style>
         <script src="scripts/main.js" type="text/javascript"></script>
         <script src="scripts/search.js" type="text/javascript"></script>
+        <script src="scripts/linechart.js" type="text/javascript"></script>
 
         <script>
             
